@@ -151,7 +151,8 @@ img {
 }
 
 .mail {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: #757575;
@@ -174,7 +175,8 @@ img {
 }
 
 .tel {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: #757575;
@@ -194,6 +196,7 @@ img {
   background-repeat: no-repeat;
   background-image: url(../images/svg/tel.svg);
 }
+
 .mail:hover,
 .tel:hover {
   color: var(--accent-color);
