@@ -338,6 +338,30 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.container.small {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client-links {
+  display: flex;
+  justify-content: center;
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+.client:last-child {
+  margin-right: 0;
+}
+
 /* footer */
 .footer {
   display: flex;
