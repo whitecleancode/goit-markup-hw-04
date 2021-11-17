@@ -162,6 +162,17 @@ img {
   letter-spacing: 0.02em;
 }
 
+.mail::before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-image: url(../images/svg/mail.svg);
+}
+
 .tel {
   display: inline-block;
   padding-top: 32px;
@@ -172,6 +183,16 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.tel::before {
+  content: "";
+  width: 10px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-image: url(../images/svg/tel.svg);
 }
 .mail:hover,
 .tel:hover {
