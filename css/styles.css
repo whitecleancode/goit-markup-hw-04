@@ -259,13 +259,10 @@ img {
 /* section */
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.section.feature {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
 .feature-list {
   display: flex;
   padding-left: 0px;
@@ -386,8 +383,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 
 .social-links > a {
@@ -586,13 +581,17 @@ img {
   margin-bottom: 30px;
   border-bottom: 1px solid #eeeeee;
 }
+
 .works-item:nth-child(3n + 3) {
   margin-right: 0px;
 }
 .works-item:nth-child(n + 7) {
   margin-bottom: 0px;
 }
-
+.works-item > a {
+  display: block;
+  cursor: pointer;
+}
 .container.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
