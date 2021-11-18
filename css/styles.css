@@ -80,8 +80,7 @@ img {
 
 .container.ftr {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  align-items: baseline;
 }
 
 /* header */
@@ -456,6 +455,27 @@ img {
 }
 .tel.down {
   margin-bottom: 0;
+}
+
+.ftr-box {
+  margin-right: 70px;
+}
+
+.ftr-txt {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ftr-icons {
+  margin-right: 10px;
+}
+.ftr-icons:last-child {
+  margin-right: 0;
 }
 
 /*  PORTfolio */
