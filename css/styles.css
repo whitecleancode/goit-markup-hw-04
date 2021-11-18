@@ -291,7 +291,7 @@ img {
 .items {
   margin-right: 30px;
 }
-.item:last-child {
+.items:last-child {
   margin-right: 0px;
 }
 
